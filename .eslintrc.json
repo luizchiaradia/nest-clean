@@ -5,6 +5,7 @@
   "rules": {
     "no-useless-constructor": "off",
     "no-new": "off",
-    "prettier/prettier": ["off", { "singleQuote": true }]
+    "prettier/prettier": ["off", { "singleQuote": true }],
+    "@typescript-eslint/no-explicit-any": ["off", {}]
   }
 }
