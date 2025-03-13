@@ -1,0 +1,10 @@
+
+services:
+  api-solid-pg:
+    image: bitnami/postgresql
+    environment:
+      - POSTGRESQL_USERNAME=docker
+      - POSTGRESQL_PASSWORD=docker
+      - POSTGRESQL_DATABASE=nest-clean
+    ports:
+      - 5432:5432
