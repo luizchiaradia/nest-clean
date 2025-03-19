@@ -17,6 +17,6 @@ POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 {
-  "email": "luizexchiaradia@gmail.com",
+  "email": "luiz.chiaradia@almg.gov.br",
   "password": "123456"
 }
