@@ -28,3 +28,8 @@ Content-Type: application/json
 POST {{baseUrl}}/questions
 Content-Type: application/json
 Authorization: Bearer {{authToken}}
+
+{
+  "title": "Qual é o seu nome?",
+  "content": "Qual é o seu nome completo?"
+}
