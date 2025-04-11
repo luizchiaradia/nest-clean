@@ -4,6 +4,7 @@ import tsConfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   test: {
+    name: 'unit',
     globals: true,
     root: './',
   },

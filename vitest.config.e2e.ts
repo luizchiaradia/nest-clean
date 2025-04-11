@@ -4,9 +4,11 @@ import tsConfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   test: {
+    name: "e2e",
     include: ['**/*.e2e-spec.ts'],
     globals: true,
     root: './',
+    setupFiles: ['./test/setup-e2e.ts'],
   },
   plugins: [
     tsConfigPaths(),
